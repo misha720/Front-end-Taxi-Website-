@@ -1,0 +1,466 @@
+body{
+	background-color: #4B4B4B;
+	font: 100% monospace;
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+/* РњРѕР±РёР»СЊРЅС‹Рµ */
+@media (min-width: 320px) and (max-width: 479px){
+	.toolbar{
+		width: 135%;
+		margin: 0;
+		padding: 0;
+		background-color: #101010;
+		border-bottom: 1px solid #EAEAEA;
+		overflow: hidden;
+	}
+	.toolbar_title a {
+		font-size: 150%;
+		float: left;
+		width: auto;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.toolbar_item a {
+		font-size: 275%;
+		text-align: center;
+		float: right;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.poster{
+		margin: 0;
+		padding: 0;
+	}
+	.poster img{
+		width: 135%;
+	}
+
+	.content{
+		margin: 0;
+		padding: 2%;
+		width: 131%;
+		text-align: center;
+		background-color: #ffffff;
+	}
+	.content h1{
+		margin: 0 0 2% 0;
+		padding: 0;
+		font-size: 150%;
+		color: #000000;
+	}
+	.content b{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+	}
+	.content a{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+		text-decoration: none;
+	}
+}/*320px*/
+@media (min-width: 480px) and (max-width: 767px){
+	.toolbar{
+		margin: 0;
+		padding: 0;
+		background-color: #101010;
+		border-bottom: 1px solid #EAEAEA;
+		overflow: hidden;
+	}
+	.toolbar_title a {
+		font-size: 150%;
+		float: left;
+		width: auto;
+		margin: 0;
+		padding: 1% 4% 1% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.toolbar_item a {
+		font-size: 275%;
+		text-align: center;
+		float: right;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.poster{
+		margin: 0;
+		padding: 0;
+	}
+	.poster img{
+		width: 100%;
+	}
+
+	.content{
+		margin: 0 10% 0 7%;
+		padding: 2%;
+		width: 80%;
+		text-align: center;
+		background-color: #ffffff;
+		border-left: 5px solid #ead064;
+		border-right: 5px solid #ead064;
+	}
+	.content h1{
+		margin: 0 0 2% 0;
+		padding: 0;
+		font-size: 150%;
+		color: #000000;
+	}
+	.content b{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+	}
+	.content a{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+		text-decoration: none;
+	}
+}/*480px*/
+@media (min-width: 768px) and (max-width: 999px){
+	.toolbar{
+		margin: 0;
+		padding: 0;
+		background-color: #101010;
+		border-bottom: 1px solid #EAEAEA;
+		overflow: hidden;
+	}
+	.toolbar_title a {
+		font-size: 300%;
+		float: left;
+		width: auto;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.toolbar_item a {
+		font-size: 275%;
+		text-align: center;
+		float: right;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.poster{
+		margin: 0;
+		padding: 0;
+	}
+	.poster img{
+		width: 100%;
+	}
+
+	.content{
+		margin: 0 10% 0 7%;
+		padding: 2%;
+		width: 80%;
+		text-align: center;
+		background-color: #ffffff;
+		border-left: 5px solid #ead064;
+		border-right: 5px solid #ead064;
+	}
+	.content h1{
+		margin: 0 0 2% 0;
+		padding: 0;
+		font-size: 150%;
+		color: #000000;
+	}
+	.content b{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+	}
+	.content a{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+		text-decoration: none;
+	}
+}/*768px*/
+
+/* РџР»Р°РЅС€РµС‚С‹ */
+@media (min-width: 1000px) and (max-width: 1279px){
+	.toolbar{
+		margin: 0;
+		padding: 0;
+		background-color: #101010;
+		border-bottom: 1px solid #EAEAEA;
+		overflow: hidden;
+	}
+	.toolbar_title a {
+		font-size: 300%;
+		float: left;
+		width: auto;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.toolbar_item a {
+		font-size: 275%;
+		text-align: center;
+		float: right;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.poster{
+		margin: 0;
+		padding: 0;
+	}
+	.poster img{
+		width: 100%;
+	}
+
+	.content{
+		margin: 0 10% 0 7%;
+		padding: 2%;
+		width: 80%;
+		text-align: center;
+		background-color: #ffffff;
+		border-left: 5px solid #ead064;
+		border-right: 5px solid #ead064;
+	}
+	.content h1{
+		margin: 0 0 2% 0;
+		padding: 0;
+		font-size: 175%;
+		color: #000000;
+	}
+	.content b{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+	}
+	.content a{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+		text-decoration: none;
+	}
+}/*1000px*/
+
+/* РџРљ */
+@media (min-width: 1280px) and (max-width: 1439px){
+	.toolbar{
+		margin: 0;
+		padding: 0;
+		background-color: #101010;
+		border-bottom: 1px solid #EAEAEA;
+		overflow: hidden;
+	}
+	.toolbar_title a {
+		font-size: 300%;
+		float: left;
+		width: auto;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.toolbar_item a {
+		font-size: 275%;
+		text-align: center;
+		float: right;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.poster{
+		margin: 0;
+		padding: 0;
+	}
+	.poster img{
+		width: 100%;
+	}
+
+	.content{
+		margin: 0 10% 0 7%;
+		padding: 2%;
+		width: 80%;
+		text-align: center;
+		background-color: #ffffff;
+		border-left: 5px solid #ead064;
+		border-right: 5px solid #ead064;
+	}
+	.content h1{
+		margin: 0 0 2% 0;
+		padding: 0;
+		font-size: 225%;
+		color: #000000;
+	}
+	.content b{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+	}
+	.content a{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+		text-decoration: none;
+	}
+}/*1280*/
+@media (min-width: 1440px) and (max-width: 1919px){
+	.toolbar{
+		margin: 0;
+		padding: 0;
+		background-color: #101010;
+		border-bottom: 1px solid #EAEAEA;
+		overflow: hidden;
+	}
+	.toolbar_title a {
+		font-size: 300%;
+		float: left;
+		width: auto;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.toolbar_item a {
+		font-size: 275%;
+		text-align: center;
+		float: right;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.poster{
+		margin: 0;
+		padding: 0;
+	}
+	.poster img{
+		width: 100%;
+	}
+
+	.content{
+		margin: 0 10% 0 7%;
+		padding: 2%;
+		width: 80%;
+		text-align: center;
+		background-color: #ffffff;
+		border-left: 5px solid #ead064;
+		border-right: 5px solid #ead064;
+	}
+	.content h1{
+		margin: 0 0 2% 0;
+		padding: 0;
+		font-size: 275%;
+		color: #000000;
+	}
+	.content b{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+	}
+	.content a{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+		text-decoration: none;
+	}
+}/*1440*/
+@media (min-width: 1920px){
+	.toolbar{
+		margin: 0;
+		padding: 0;
+		background-color: #101010;
+		border-bottom: 1px solid #EAEAEA;
+		overflow: hidden;
+	}
+	.toolbar_title a {
+		font-size: 300%;
+		float: left;
+		width: auto;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.toolbar_item a {
+		font-size: 275%;
+		text-align: center;
+		float: right;
+		margin: 0;
+		padding: 2% 4% 2% 4%;
+		text-align: center;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	.poster{
+		margin: 0;
+		padding: 0;
+	}
+	.poster img{
+		width: 100%;
+	}
+
+	.content{
+		margin: 0 10% 0 7%;
+		padding: 2%;
+		width: 80%;
+		text-align: center;
+		background-color: #ffffff;
+		border-left: 5px solid #ead064;
+		border-right: 5px solid #ead064;
+	}
+	.content h1{
+		margin: 0 0 2% 0;
+		padding: 0;
+		font-size: 275%;
+		color: #000000;
+	}
+	.content b{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+	}
+	.content a{
+		color: #ffffff;
+		background-color: #ff914d;
+		margin: 0;
+		padding: 0.2% 1% 0.2% 1%;
+		text-decoration: none;
+	}
+}
